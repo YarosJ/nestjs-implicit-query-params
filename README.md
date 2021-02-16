@@ -13,6 +13,10 @@ PipeTransform for NestJS, which allows to implicitly or explicitly convert query
 
 ## Usage of the custom converters
 
+```typescript
+import implicitQueryParams from 'nestjs-implicit-query-params';
+```
+
 There are 3 ways that can be used together or separately (for all 3 ways given examples of the conversion to the Boolean type):
 1. Pass functions for the query param keys which receive String value and returns a new value with needed type:
 
